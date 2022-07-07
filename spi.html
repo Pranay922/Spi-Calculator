@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GP2 CALCULATOR</title>
+    <!-- <link rel="stylesheet" href="bootstrap.min.css"> -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <div class="big">
+            <h1>SPI CALCULATOR</h1>
+
+            <div class="c2">
+                <input id="a" class="form-control" type="text" placeholder="Course Code" required>
+            </div>
+            <div class="c1">
+                <input id="b" class="form-control" type="text" placeholder="Credits" required>
+            </div>
+
+            <div class="c3">
+                <select id="c" class="form-control" required>
+                    <option value="">Grade</option>
+                    <option value="10">AA</option>
+                    <option value="9">AB</option>
+                    <option value="8">BB</option>
+                    <option value="7">BC</option>
+                    <option value="6">CC</option>
+                    <option value="5">CD</option>
+                    <option value="5">DD</option>
+                </select>
+            </div>
+
+            <div class="c4">
+                <input id="add" class="btn btn-primary" type="button" value="Add">
+
+            </div>
+        </div>
+
+        <div class="tab">
+            <table id="table" class="table table-bordered display-none" border="1" style="width:100%">
+                <thead>
+                    <tr>
+                        <th>Course Code</th>
+                        <th>Credits</th>
+                        <th>Grade</th>
+                    </tr>
+                </thead>
+                <tbody id="tbody">
+
+                </tbody>
+                <tfoot id="tfoot">
+
+                </tfoot>
+            </table>
+            <div class="row">
+                <div class="col1">
+                    <input id="calc-gp" class="btn btn-success display-none" type="button" value="Calc Spi">
+                </div>
+                <div class="col2">
+                    <input id="clear" class="btn btn-warning display-none" type="button" value="Clear">
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
