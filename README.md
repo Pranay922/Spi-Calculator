@@ -1,2 +1,2 @@
 # Spi-Calculator
-This is a basic SPI calculator for college students 
+This is a basic SPI calculator for students 
